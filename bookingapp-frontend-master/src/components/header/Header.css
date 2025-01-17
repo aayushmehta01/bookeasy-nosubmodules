@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+.header{
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("https://r-xx.bstatic.com/xdata/images/xphoto/2880x868/363658458.jpeg?k=427a5cc2522eb3d80a76d232939725ec6cf76e03ef26ee846375709b3e9caf6f&o=");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.listHeader{
+    background-color: #0d3166;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;     
+}
+
+.headerContainer.listMode{
+    margin: 20px 0 0 0;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 200ms;
+}
+
+.headerListItem:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headerTitle{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.headerDesc{
+    margin: 10px 0 40px 0;
+    font-size: 25px;
+}
+
+.headerBtn{
+    background-color: #154997;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 200ms;
+}
+
+.headerBtn:hover{
+    opacity: 0.8;
+}

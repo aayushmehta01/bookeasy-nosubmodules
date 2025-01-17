@@ -1,0 +1,93 @@
+.lsContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.lsWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.left{
+    flex: 1;
+    background-color: #fff;
+    /* position: sticky;
+    top: 20px; */
+}
+
+.lsSearch{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    position: sticky;
+    top: 20px;
+}
+
+.lsResult{
+    flex: 3;
+}
+
+.lsTitle{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.lsOption{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.lsOption>button{
+    background-color: #154997;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+    transition: opacity 200ms;
+}
+
+.lsOption>button:hover{
+    opacity: 0.8;
+}
+
+.lsOptionHeading{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lsOptionInputdiv{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+  
+.lsOptionInput{
+    width: 50px;
+    outline: none;
+    border: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
